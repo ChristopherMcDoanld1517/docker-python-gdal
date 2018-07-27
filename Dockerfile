@@ -26,7 +26,7 @@ ENV CPLUS_INCLUDE_PATH=/usr/include/gdal
 ENV C_INCLUDE_PATH=/usr/include/gdal
 
 # This will install latest version of GDAL
-RUN pip install GDAL>=2.2.4
+# RUN pip install GDAL>=2.2.4
 
 # Setup default locale
 RUN echo en_US.UTF-8 UTF-8 > /etc/locale.gen
